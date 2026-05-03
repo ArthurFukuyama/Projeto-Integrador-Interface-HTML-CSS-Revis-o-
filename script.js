@@ -3,7 +3,7 @@ function validarNumero(){
     let mensagem=document.getElementById('mensagem')
 
     if(numero == ""){
-        mensagem.textContent = "Por favor, insaira um número.";
+        mensagem.textContent = "Por favor, insira um número.";
         mensagem.style.color = "red";
     }
     else{
