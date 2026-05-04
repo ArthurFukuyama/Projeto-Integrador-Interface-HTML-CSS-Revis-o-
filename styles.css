@@ -1,40 +1,66 @@
-body{
+body {
+    /* Define a família de fonte padrão para o corpo da página */
     font-family: Arial, sans-serif;
+    /* Ativa o Flexbox para alinhar o conteúdo */
     display: flex;
+    /* Centraliza o conteúdo horizontalmente */
     justify-content: center;
+    /* Centraliza o conteúdo verticalmente */
     align-items: center;
+    /* Define a altura que o corpo ocupará*/
     height: 100vh;
+    /* Define a cor de fundo */
     background-color: #f0f0f0;
 }
 
-.container{
+.container {
+    /* Centraliza o texto dentro do ID container */
     text-align: center;
+    /* Adiciona um espaçamento interno */
     padding: 20px;
+    /* Define a cor do fundo */
     background-color: #fff;
+    /* Arredonda as bordas da div */
     border-radius: 10px;
+    /* Adiciona uma sombra ao redor do ID container para dar profundidade */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-input{
+input {
+    /* Espaçamento interno para o texto não encostar nas bordas do campo */
     padding: 10px;
+    /* Margem à direita para separar o campo de texto do botão */
     margin-right: 10px;
+    /* Define uma borda fina e sólida na cor cinza */
     border: 1px solid #ccc;
-    border-radius:  5px;
-}
-button{
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
+    /* Arredonda levemente os cantos do input */
     border-radius: 5px;
+}
+
+button {
+    /* Define o espaçamento interno (10px vertical, 20px horizontal) */
+    padding: 10px 20px;
+    /* Define a cor de fundo*/
+    background-color: #007bff;
+    /* Define a cor do texto */
+    color: white;
+    /* Remove a borda padrão do navegador */
+    border: none;
+    /* Arredonda os cantos do button */
+    border-radius: 5px;
+    /* Altera o formato do cursor para indicar que o botão possar ser clicado */
     cursor: pointer;
 }
 
-button:hover{
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    /* Altera a cor do botão quando passar o mouse por cima */
     background-color: #0056b3;
 }
 
-p{
+p {
+    /* Adiciona um espaço acima do parágrafo */
     margin-top: 20px;
+    /* Altera o tamanho da fonte */
     font-size: 18px;
 }
