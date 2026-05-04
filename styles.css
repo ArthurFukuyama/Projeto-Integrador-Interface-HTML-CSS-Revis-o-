@@ -1,3 +1,4 @@
+
 body {
     /* Define a família de fonte padrão para o corpo da página */
     font-family: Arial, sans-serif;
@@ -27,6 +28,7 @@ body {
 }
 
 input {
+    width: 100%;
     /* Espaçamento interno para o texto não encostar nas bordas do campo */
     padding: 10px;
     /* Margem à direita para separar o campo de texto do botão */
@@ -63,4 +65,39 @@ p {
     margin-top: 20px;
     /* Altera o tamanho da fonte */
     font-size: 18px;
+}
+/*Faz a responsividade para celulares e tablets*/
+@media (max-width: 768px) {
+    .container {
+        /*Altera a largura*/
+        width: 90%;
+        padding: 15px;
+    }
+
+    input {
+        width: 100%;
+        margin-right: 0;
+        /* Adiciona um espaço abaixo do parágrafo */
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+/*Faz a responsividade para celulares de telas menores*/
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    p {
+        /*Altera o tamanho da fonte*/
+        font-size: 16px;
+    }
 }
