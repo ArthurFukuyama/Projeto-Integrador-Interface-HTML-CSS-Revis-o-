@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Conecta o arquivo em HTML com o arquivo em CSS-->
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,16 @@
 </head>
 
 <body>
+    <!--A div agrupa os elementos do body-->
     <div class="container">    
     <h1>Validação de Números</h1>
+    <!--Permite a entrada dos dados em formato de números pelo usuário -->
     <input type="number" id="numero" name="numero" placeholder="Digite um número">
+    <!--Valida os dados escritos pelo usuário e exibe uma mensagem-->
     <button onclick="validarNumero()">Validar</button>
     <p id="mensagem"></p>
 </div>
+<!--Conecta o arquivo em HTML ao arquivo em Java script-->
 <script src="script.js"></script>
 </body>
 </html>
